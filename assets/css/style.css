@@ -1,0 +1,25 @@
+@import url("mobile/body.css");
+@import url("mobile/perfil.css");
+@import url("mobile/card.css");
+
+@import url("desktop/body.css");
+@import url("desktop/perfil.css");
+@import url("desktop/card.css");
+
+:root {
+    --amarelo: hsl(43, 84%, 65%);
+    --azul_claro: hsl(195, 74%, 62%);
+    --azul_escuro: hsl(235, 46%, 20%);
+    --azul_escuro_hover: hsl(235, 47%, 27%);
+    --branco: hsl(0, 0%, 100%);
+    --laranja: hsl(15, 100%, 70%);
+    --lilas: hsl(236, 100%, 87%);
+    --preto_azulado: hsl(226, 43%, 10%);
+    --rosa: hsl(348, 100%, 68%);
+    --roxo: hsl(264, 64%, 52%);
+    --verde: hsl(145, 58%, 55%);
+    --violeta: hsl(246, 80%, 60%);
+    --violeta_claro: hsl(235, 45%, 61%);
+
+    --fonte: 'Rubik', sans-serif;
+}

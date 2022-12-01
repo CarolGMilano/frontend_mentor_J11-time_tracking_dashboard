@@ -1,0 +1,22 @@
+@media screen and (min-width: 800px) {
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        row-gap: 1.3rem;
+        column-gap: 1.3rem;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4, 210px);
+        grid-template-rows: repeat(2, 210px);
+        grid-template-areas: 
+            "perfil sec1 sec2 sec3"
+            "perfil sec4 sec5 sec6"
+        ;
+    }
+}

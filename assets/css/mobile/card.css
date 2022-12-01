@@ -1,0 +1,93 @@
+.card {
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+    align-items: flex-end;
+    height: 165px;
+}
+
+.work {
+    background: url('../../img/icon-work.svg') no-repeat, var(--laranja);
+    background-position: top -10px right 20px;
+    background-size: 90px;
+}
+
+.play {
+    background: url('../../img/icon-play.svg') no-repeat, var(--azul_claro);
+    background-position: top -10px right 20px;
+    background-size: 90px;
+}
+
+.study {
+    background: url('../../img/icon-study.svg') no-repeat, var(--rosa);
+    background-position: top -10px right 20px;
+    background-size: 90px;
+}
+
+.exercise {
+    background: url('../../img/icon-exercise.svg') no-repeat, var(--verde);
+    background-position: top -2px right 20px;
+    background-size: 85px;
+}
+
+.social {
+    background: url('../../img/icon-social.svg') no-repeat, var(--roxo);
+    background-position: top -10px right 20px;
+    background-size: 90px;
+}
+
+.selfCare {
+    background: url('../../img/icon-self-care.svg') no-repeat, var(--amarelo);
+    background-position: top -15px right 20px;
+    background-size: 80px;
+}
+
+.card .card__corpo {
+    background-color: var(--azul_escuro);
+    padding: 1.5rem 2rem;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+    transition: .3s;
+}
+
+.card .card__corpo:hover {
+    background-color: var(--azul_escuro_hover);
+    cursor: pointer;
+}
+
+.card__corpo .corpo__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .6rem;
+}
+
+.corpo__header .header__titulo {
+    font-weight: 400;
+    color: var(--branco);
+    font-size: 17px;
+}
+
+.corpo__header .header__btn {
+    background: url('../../img/icon-ellipsis.svg') no-repeat;
+    width: 21px;
+    height: 5px;
+}
+
+.card .corpo__previa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.corpo__previa .previa__horas {
+    color: var(--branco);
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.corpo__previa .previa__detalhe {
+    color: var(--lilas);
+    font-size: 16px;
+    font-weight: 300;
+}

@@ -1,0 +1,28 @@
+@media screen and (min-width: 800px) {
+    .perfil {
+        width: 210px;
+        grid-area: perfil;
+    }
+
+    .perfil .perfil__cabecalho {
+        flex-direction: column;
+        row-gap: 2rem;
+        align-items: flex-start;
+        padding: 2rem 2rem 4rem 2rem;
+    }
+
+    .cabecalho__destaque .destaque__report {
+        font-size: 13px;
+    }
+    
+    .cabecalho__destaque .destaque__nome {
+        font-size: 30px;
+    }
+
+    .perfil .perfil__nav {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 1.3rem;
+        padding: 1.5rem 2rem;
+    }
+}

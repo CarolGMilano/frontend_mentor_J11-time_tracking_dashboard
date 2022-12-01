@@ -1,0 +1,68 @@
+.perfil {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul_escuro);
+    border-radius: 15px;
+}
+
+.perfil__cabecalho {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--violeta);
+    border-radius: 0 0 15px 15px;
+    column-gap: 1.2rem;
+}
+
+.perfil__cabecalho .cabecalho__img {
+    width: 70px;
+    height: auto;
+    border: 3px solid var(--branco);
+    border-radius: 100px;
+}
+
+
+.perfil__cabecalho .cabecalho__destaque {
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+}
+
+.cabecalho__destaque .destaque__report,
+.cabecalho__destaque .destaque__nome  {
+    font-weight: 300;
+    color: var(--branco);
+}
+
+.cabecalho__destaque .destaque__report {
+    font-size: 16px;
+}
+
+.cabecalho__destaque .destaque__nome {
+    font-size: 24px;
+}
+
+.perfil__nav {
+    padding: 1.3rem 2rem;
+}
+
+.perfil__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.perfil__nav .nav__link {
+    border: none;
+    background-color: transparent;
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 17px;
+    transition: .3s;
+}
+
+.perfil__nav .nav__link:hover {
+    color: var(--branco);
+    cursor: pointer;
+}

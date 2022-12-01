@@ -1,0 +1,20 @@
+body {
+    background-color: var(--preto_azulado);
+    font-family: var(--fonte);
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 2rem 1.2rem;
+}
+
+.ativo {
+    color: var(--branco);
+}
+
+.inativo {
+    color: var(--violeta_claro);
+}

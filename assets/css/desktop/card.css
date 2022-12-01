@@ -1,0 +1,57 @@
+@media screen and (min-width: 800px) {
+    .card {
+        width: 210px;
+        height: 205px;
+    }
+
+    .work {
+        background-size: 80px;
+        grid-area: sec1;
+    }
+    
+    .play {
+        background-size: 80px;
+        grid-area: sec2;
+    }
+    
+    .study {
+        background-size: 80px;
+        grid-area: sec3;
+    }
+
+    .exercise {
+        grid-area: sec4;
+    }
+    
+    .social {
+        background-size: 80px;
+        grid-area: sec5;
+    }
+    
+    .selfCare {
+        background-size: 70px;
+        grid-area: sec6;
+    }
+
+    .card .card__corpo {
+        padding: 1.5rem;
+    }
+
+    .card .corpo__previa {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: .3rem;
+    }
+
+    .card__corpo .corpo__header {
+        margin-bottom: 1.3rem;
+    }
+
+    .corpo__previa .previa__horas {
+        font-size: 45px;
+    }
+
+    .corpo__previa .previa__detalhe {
+        font-size: 15px;
+    }
+}
